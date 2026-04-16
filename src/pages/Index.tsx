@@ -25,11 +25,7 @@ const Index = () => {
 
       {/* Subtitle */}
       <p className="mt-6 max-w-xl text-center text-lg text-muted-foreground">
-        Build lead lists from{" "}
-        <span className="font-medium underline decoration-foreground/40 underline-offset-4 text-foreground">
-          anywhere online
-        </span>{" "}
-        and enrich your existing database in one click.
+        Find 80%+ of your leads' verified emails and mobile numbers, worldwide, in one click. Stop losing deals because you couldn't reach them.
       </p>
 
       {/* CTA buttons */}
