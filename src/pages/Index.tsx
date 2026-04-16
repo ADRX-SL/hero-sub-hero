@@ -24,7 +24,7 @@ const Index = () => {
       </h1>
 
       {/* Subtitle */}
-      <p className="mt-6 max-w-xl text-center text-lg text-muted-foreground">
+      <p className="mt-6 max-w-3xl text-center text-lg text-muted-foreground">
         Find 80%+ of your leads' verified emails and mobile numbers, worldwide, in one click. Stop losing deals because you couldn't reach them.
       </p>
 
