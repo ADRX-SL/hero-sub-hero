@@ -25,7 +25,7 @@ const Index = () => {
 
       {/* Subtitle */}
       <p className="mt-6 max-w-xl text-center text-lg text-muted-foreground">
-        Find 80%+ of your leads' verified emails and mobile numbers, worldwide, in one click. Stop losing deals because you couldn't reach them.
+        Waterfall enrichment with 80%+ find rate. Stop losing deals because you couldn't find emails and phone numbers of your leads.
       </p>
 
       {/* CTA buttons */}
