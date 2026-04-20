@@ -69,7 +69,7 @@ const LogoStrip = () => {
     <section className="w-full border-y border-border/50 bg-background py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6">
         <p className="mb-10 text-center text-sm font-medium uppercase tracking-wider text-muted-foreground">
-          Trusted by teams at leading companies
+          Trusted by Ops/Sales teams at leading B2B companies
         </p>
         <div className="flex flex-col gap-y-10">
           <div className="flex flex-nowrap items-start justify-center gap-x-5 md:gap-x-7 lg:gap-x-9 overflow-x-auto md:overflow-visible">
