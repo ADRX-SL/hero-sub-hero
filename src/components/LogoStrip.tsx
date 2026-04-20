@@ -5,10 +5,11 @@ import mongodb from "@/assets/logos/mongodb.png";
 import lemlist from "@/assets/logos/lemlist.png";
 import tangentia from "@/assets/logos/tangentia.png";
 import barbri from "@/assets/logos/barbri.jpg";
-import unknownLogo from "@/assets/logos/unknown.avif";
+import fluentbee from "@/assets/logos/unknown.avif";
 import qlerify from "@/assets/logos/qlerify.png";
 import luminai from "@/assets/logos/luminai.png";
 import growthlabz from "@/assets/logos/growthlabz.jpg";
+import weathershield from "@/assets/logos/weathershield.png";
 
 type LogoItem =
   | { type: "image"; src: string; alt: string; className?: string; caseStudy?: boolean }
@@ -23,16 +24,17 @@ const row1: LogoItem[] = [
   { type: "image", src: deloitte, alt: "Deloitte", className: "h-6 md:h-7" },
   { type: "image", src: mongodb, alt: "MongoDB", className: "h-6 md:h-7" },
   { type: "image", src: cyngn, alt: "CYNGN", className: "h-6 md:h-7" },
-  { type: "text", label: "ORACLE", alt: "Oracle", className: "font-bold tracking-[0.2em] text-[#C74634] text-sm md:text-base" },
 ];
 
 const row2: LogoItem[] = [
+  { type: "text", label: "ORACLE", alt: "Oracle", className: "font-bold tracking-[0.2em] text-[#C74634] text-sm md:text-base" },
   { type: "image", src: tangentia, alt: "Tangentia", className: "h-7 md:h-8" },
   { type: "image", src: barbri, alt: "Barbri", className: "h-9 md:h-10 rounded" },
-  { type: "image", src: unknownLogo, alt: "Customer logo", className: "h-7 md:h-8" },
+  { type: "image", src: fluentbee, alt: "Fluentbee", className: "h-7 md:h-8" },
   { type: "image", src: qlerify, alt: "Qlerify", className: "h-6 md:h-7" },
-  { type: "image", src: luminai, alt: "Lumin.ai", className: "h-7 md:h-8" },
   { type: "image", src: growthlabz, alt: "Growth Labz", className: "h-9 md:h-10 rounded", caseStudy: true },
+  { type: "image", src: luminai, alt: "Lumin.ai", className: "h-7 md:h-8" },
+  { type: "image", src: weathershield, alt: "WeatherShield Roofing Group", className: "h-9 md:h-10 rounded" },
 ];
 
 const CaseStudyBadge = () => (
@@ -75,7 +77,7 @@ const LogoStrip = () => {
           <div className="flex flex-nowrap items-start justify-center gap-x-5 md:gap-x-7 lg:gap-x-9 overflow-x-auto md:overflow-visible">
             {row1.map(renderItem)}
           </div>
-          <div className="flex flex-nowrap items-start justify-center gap-x-6 md:gap-x-10 lg:gap-x-14 overflow-x-auto md:overflow-visible">
+          <div className="flex flex-nowrap items-start justify-center gap-x-5 md:gap-x-7 lg:gap-x-9 overflow-x-auto md:overflow-visible">
             {row2.map(renderItem)}
           </div>
         </div>
