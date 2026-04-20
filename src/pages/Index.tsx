@@ -1,9 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import LogoStrip from "@/components/LogoStrip";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-background px-4">
+    <div className="flex min-h-screen flex-col bg-background">
+      <div className="flex flex-1 flex-col items-center justify-center px-4 pt-20 pb-16">
       {/* Social proof badge */}
       <div className="mb-6 flex items-center gap-2 rounded-full border border-border/60 bg-secondary/50 px-3.5 py-1.5 shadow-sm">
         {/* Logos */}
