@@ -9,15 +9,15 @@ type LogoItem =
   | { type: "text"; label: string; alt: string; className?: string; caseStudy?: boolean };
 
 const logos: LogoItem[] = [
-  { type: "text", label: "ElevenLabs", alt: "ElevenLabs", className: "font-semibold tracking-tight text-foreground/80 text-xl" },
-  { type: "image", src: hlth, alt: "HLTH", className: "h-8 md:h-9", caseStudy: true },
-  { type: "text", label: "CLOUDERA", alt: "Cloudera", className: "font-extrabold tracking-[0.15em] text-foreground/80 text-lg" },
-  { type: "image", src: deloitte, alt: "Deloitte", className: "h-7 md:h-8" },
-  { type: "image", src: mongodb, alt: "MongoDB", className: "h-7 md:h-8" },
-  { type: "text", label: "BD", alt: "BD", className: "font-extrabold italic text-[#CC0033] text-2xl tracking-tight", caseStudy: true },
-  { type: "text", label: "ORACLE", alt: "Oracle", className: "font-bold tracking-[0.2em] text-[#C74634] text-lg" },
-  { type: "image", src: lemlist, alt: "Lemlist", className: "h-9 md:h-10" },
-  { type: "image", src: cyngn, alt: "CYNGN", className: "h-7 md:h-8" },
+  { type: "image", src: lemlist, alt: "Lemlist", className: "h-8 md:h-9" },
+  { type: "image", src: hlth, alt: "HLTH", className: "h-7 md:h-8", caseStudy: true },
+  { type: "text", label: "ElevenLabs", alt: "ElevenLabs", className: "font-semibold tracking-tight text-foreground/80 text-base md:text-lg" },
+  { type: "text", label: "CLOUDERA", alt: "Cloudera", className: "font-extrabold tracking-[0.15em] text-foreground/80 text-sm md:text-base" },
+  { type: "text", label: "BD", alt: "BD", className: "font-extrabold italic text-[#CC0033] text-xl md:text-2xl tracking-tight", caseStudy: true },
+  { type: "image", src: deloitte, alt: "Deloitte", className: "h-6 md:h-7" },
+  { type: "image", src: mongodb, alt: "MongoDB", className: "h-6 md:h-7" },
+  { type: "image", src: cyngn, alt: "CYNGN", className: "h-6 md:h-7" },
+  { type: "text", label: "ORACLE", alt: "Oracle", className: "font-bold tracking-[0.2em] text-[#C74634] text-sm md:text-base" },
 ];
 
 const CaseStudyBadge = () => (
