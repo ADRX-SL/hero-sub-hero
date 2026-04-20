@@ -61,6 +61,8 @@ const Index = () => {
           Get a demo
         </Button>
       </div>
+      </div>
+      <LogoStrip />
     </div>
   );
 };
