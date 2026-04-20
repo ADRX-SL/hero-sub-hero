@@ -42,7 +42,7 @@ const Index = () => {
 
       {/* Hero heading */}
       <h1 className="max-w-3xl text-center text-5xl font-extrabold leading-tight tracking-tight text-foreground md:text-6xl">
-        Find <span style={{ color: '#3C73E7' }}>any lead's</span> email & phone
+        Find <span style={{ color: '#3C73E7' }}>any lead's</span> email & phone, <span style={{ color: '#3C73E7' }}>anywhere</span>
       </h1>
 
       {/* Subtitle */}
