@@ -33,7 +33,7 @@ const LogoStrip = () => {
         <p className="mb-10 text-center text-sm font-medium uppercase tracking-wider text-muted-foreground">
           Trusted by teams at leading companies
         </p>
-        <div className="flex flex-wrap items-start justify-center gap-x-10 gap-y-8 md:gap-x-14">
+        <div className="flex flex-nowrap items-start justify-center gap-x-5 md:gap-x-7 lg:gap-x-9 overflow-x-auto md:overflow-visible">
           {logos.map((logo) => (
             <div key={logo.alt} className="flex flex-col items-center">
               <div className="flex h-10 items-center justify-center">
